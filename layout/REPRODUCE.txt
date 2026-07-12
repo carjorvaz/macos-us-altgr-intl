@@ -1,0 +1,42 @@
+REPRODUCING THE SEALED CLEAN-ROOM LAYOUT
+
+Prerequisite: Python 3.9 or newer. No network access, package installation,
+macOS keyboard-layout installation, repository checkout, or third-party Python
+package is required.
+
+From this directory run:
+
+    python3 generate.py
+    python3 verify.py
+
+The generator checks every vendored public source against source-lock.json;
+Apple documentation entries are URL/hash-sealed reference-only records with
+redistribute=false and are neither required nor shipped. It then mechanically
+expands xkeyboard-config 2.48 us(intl) with the altgr-intl
+overrides, resolves keysyms, derives Compose/UCD state transitions, and rewrites
+these three deterministic outputs:
+
+    us-altgr-intl.keylayout
+    layout-spec.json
+    derivation.json
+
+To verify the seal without writing anything, run:
+
+    python3 generate.py --check
+
+Expected SHA-256 after generation:
+
+    bac853ca9e0238ef4b084aa856654784439a1d23eea48ee1d66eb4a3b49dc07b  us-altgr-intl.keylayout
+    bddbc57951687e1963fa7560e823359830e08171760aa2489e94f9aeff8c2792  layout-spec.json
+    909bf6e0ef210e6774735b0d12ea9a3bc46f33d7ace9bd877e365a198690fb1a  derivation.json
+
+The generated XML is deliberately XML 1.1 because its numeric character
+references include control values that XML 1.0 forbids. verify.py performs an
+offline XML structural check that preserves this fact, exhaustively checks all
+256 left/right Shift/Option/Control plus Command/Caps physical modifier
+combinations, checks all twelve maps against XKB and Unicode 17 casing data,
+checks action/state references and every direct Control result, and probes
+Caps+AltGr, shortcuts, explicit combined Compose results, concatenated
+combined-state terminators, unreachable-terminal all-dead prefixes, and the
+absence of NFC-only dead_acute+Oslash synthesis. It does not install or invoke
+a downstream project.

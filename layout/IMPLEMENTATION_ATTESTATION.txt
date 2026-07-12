@@ -1,0 +1,36 @@
+IMPLEMENTATION ATTESTATION
+
+I attest that this workspace was produced as an isolated clean-room
+implementation under:
+
+    /tmp/macos-us-altgr-intl-cleanroom/implementation
+
+During this implementation I did not read, search, or list
+/tmp/macos-us-altgr-intl; any installed us-altgr-intl layout; Twam/xv files;
+git history; prior transcripts; issue output tables; or legacy-derived
+fixtures. I did not contact upstream authors, install any input source, use a
+system keyboard layout as a mapping source, commit, push, or publish.
+
+The only behavior and format inputs were the exact public-source snapshots
+listed and hashed in source-lock.json: xkeyboard-config 2.48, xorgproto's
+keysym registry, Unicode 17.0.0 data, libX11 1.8.12 Compose data, Apple TN2056,
+and Apple's published virtual-key-code figure. The two Apple documents are not
+vendored: only their public URLs, versions, observed retrieval hashes, factual
+anchors, and redistribute=false status are retained. A general-purpose XML
+command was attempted only as a post-generation syntax check; because that local
+parser explicitly lacks XML 1.1 support, the checked-in offline verifier uses
+an XML-1.1-aware structural normalization solely for validation and does not
+supply mapping data.
+
+No expected output table or implementation code was exchanged with the
+independent oracle workspace. Coordination with the oracle and notices workers
+was limited to confirming the exact libX11 1.8.12 Compose release, immutable
+commit, source path, license path, and hashes.
+
+The generator fails on source hash drift, unexpected XKB override structure,
+unresolved literal keysyms, unavailable Apple keycode mappings, ambiguous
+Compose prefixes, missing publicly derivable dead-key combining marks, missing
+terminators, and Unicode normalization-version mismatch. The generated header
+states its canonical XKB behavior and expressly disclaims endorsement.
+
+Attested: 2026-07-12

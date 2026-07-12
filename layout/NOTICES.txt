@@ -1,0 +1,40 @@
+SOURCE AND ATTRIBUTION NOTICES
+
+This implementation is independently generated. References to X.Org,
+freedesktop.org, Unicode, and Apple identify public factual sources only and do
+not imply sponsorship or endorsement.
+
+xkeyboard-config 2.48
+  Canonical symbol behavior is taken from the pinned symbols/us snapshot.
+  The complete upstream COPYING aggregation is retained verbatim at
+  sources/xkb_COPYING.txt. Applicable notices in the source and COPYING file
+  must be preserved according to their terms.
+
+xorgproto 2025.1
+  Keysym names and Unicode values are taken from keysymdef.h. Its applicable
+  X11 protocol notice is retained verbatim at sources/xorgproto_COPYING.txt;
+  license/copyright blocks also remain intact in sources/xorg_keysymdef.txt.
+
+libX11 1.8.12
+  Compose behavior is from nls/en_US.UTF-8/Compose.pre at immutable commit
+  59917d28a3c41ad22d6fc52e323cafe2cdd596d5. The source's retained header and
+  the verbatim root license/notice aggregation at sources/libX11_COPYING.txt
+  apply. The root file directs readers to per-file/directory terms.
+
+Unicode 17.0.0
+  UnicodeData.txt, CompositionExclusions.txt, and
+  DerivedNormalizationProps.txt are data inputs. The Unicode Data Files and
+  Software License is retained verbatim at sources/unicode_LICENSE.txt.
+
+Apple public documentation
+  Apple TN2056 is used only for XML format facts. Inside Macintosh: Macintosh
+  Toolbox Essentials, Figure 2-10, is used for public virtual-key-code facts.
+  Their URLs and observed retrieval hashes are sealed as reference-only with
+  redistribute=false; the copyrighted document bytes are not vendored. Apple
+  names and documentation are not incorporated as branding and no endorsement
+  is claimed.
+
+source-lock.json records exact versions, retrieval URLs, SHA-256 values,
+redistribution status, retained paths where applicable, and applicability
+notes. Generated behavior and derivation links are recorded in layout-spec.json
+and derivation.json.

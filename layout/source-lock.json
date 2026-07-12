@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "xkeyboard-config-symbols-us",
+      "version": "2.48",
+      "url": "https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/raw/xkeyboard-config-2.48/symbols/us",
+      "path": "sources/xkb_symbols_us.txt",
+      "sha256": "d70b84ee6b8bc7aa796690d5e93d6a7382d919ddca03f3b05338efc3a4aa2739",
+      "notice": "Canonical behavior input; covered by the separately preserved xkeyboard-config COPYING file."
+    },
+    {
+      "id": "xkeyboard-config-copying",
+      "version": "2.48",
+      "url": "https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/raw/xkeyboard-config-2.48/COPYING",
+      "path": "sources/xkb_COPYING.txt",
+      "sha256": "fc03f6535d16b3fe9beece45b84214a37e6ca4b6550c03cadaed7e1b951fb294",
+      "notice": "Verbatim upstream licensing and attribution notices; individual-file notices remain controlling."
+    },
+    {
+      "id": "xorgproto-keysymdef",
+      "version": "2025.1",
+      "url": "https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/raw/xorgproto-2025.1/include/X11/keysymdef.h",
+      "path": "sources/xorg_keysymdef.txt",
+      "sha256": "ebadfb6a3efef8fee1461fd905b3293af297ccfd8a080564f0b7e72a0e8816da",
+      "notice": "Keysym name/value registry input; the applicable X11 protocol notice is preserved separately."
+    },
+    {
+      "id": "xorgproto-x11-copying",
+      "version": "2025.1",
+      "url": "https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/raw/xorgproto-2025.1/COPYING-x11proto",
+      "path": "sources/xorgproto_COPYING.txt",
+      "sha256": "da835951edc6e3b8d168d6afe7447c65d0b9a99937293cf3f288bba8244a9f86",
+      "notice": "Verbatim X11 protocol notice associated with keysymdef.h."
+    },
+    {
+      "id": "unicode-data",
+      "version": "17.0.0",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "path": "sources/unicode_UnicodeData.txt",
+      "sha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+      "notice": "Unicode character names and canonical decomposition input; covered by Unicode license."
+    },
+    {
+      "id": "unicode-composition-exclusions",
+      "version": "17.0.0",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/CompositionExclusions.txt",
+      "path": "sources/unicode_CompositionExclusions.txt",
+      "sha256": "2f239196ef3b5b61db5cc476e9bd80f534d15aa1b74e1be1dea5d042a344c85f",
+      "notice": "UAX #15 composition exclusion input; covered by Unicode license."
+    },
+    {
+      "id": "unicode-derived-normalization-properties",
+      "version": "17.0.0",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/DerivedNormalizationProps.txt",
+      "path": "sources/unicode_DerivedNormalizationProps.txt",
+      "sha256": "71fd6a206a2c0cdd41feb6b7f656aa31091db45e9cedc926985d718397f9e488",
+      "notice": "Pinned UAX #15 normalization-property input and version evidence; covered by Unicode license."
+    },
+    {
+      "id": "unicode-license",
+      "version": "17.0.0 retrieval set",
+      "url": "https://www.unicode.org/license.txt",
+      "path": "sources/unicode_LICENSE.txt",
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+      "notice": "Verbatim Unicode data files and software license."
+    },
+    {
+      "id": "apple-tn2056",
+      "version": "2.1.0 (archived 2006-03-08)",
+      "url": "https://developer.apple.com/library/archive/technotes/tn2056/_index.html",
+      "sha256": "cfe7783e4e0ff174942b94732d9c58617c153cdabf2e67312668b02c54143411",
+      "reference_only": true,
+      "redistribute": false,
+      "notice": "Format-only factual reference. URL and observed retrieval hash are sealed; copyrighted document bytes are intentionally not vendored."
+    },
+    {
+      "id": "apple-virtual-keycodes",
+      "version": "Inside Macintosh: Macintosh Toolbox Essentials (1992)",
+      "url": "https://developer.apple.com/legacy/library/documentation/mac/pdf/MacintoshToolboxEssentials.pdf",
+      "sha256": "d621ee7d98f982fd7c9891c3dc433ff7dd438beb2fccc7dfcfb1773b4c7da1c3",
+      "reference_only": true,
+      "redistribute": false,
+      "notice": "Figure 2-10 is the public Apple virtual-key-code map used for the ANSI/ISO position transcription. URL and observed retrieval hash are sealed; copyrighted document bytes are intentionally not vendored."
+    },
+    {
+      "id": "libx11-compose",
+      "version": "1.8.12, immutable commit 59917d28a3c41ad22d6fc52e323cafe2cdd596d5",
+      "url": "https://gitlab.freedesktop.org/xorg/lib/libx11/-/raw/59917d28a3c41ad22d6fc52e323cafe2cdd596d5/nls/en_US.UTF-8/Compose.pre",
+      "path": "sources/libX11_Compose.txt",
+      "sha256": "cba1921a6b927218a9d4c2888454ec4970ce976842ba7a6a1dc018220bf55ac0",
+      "notice": "Pinned X.Org en_US.UTF-8 Compose behavior input; root COPYING is preserved separately and directs readers to per-file notices."
+    },
+    {
+      "id": "libx11-copying",
+      "version": "1.8.12, immutable commit 59917d28a3c41ad22d6fc52e323cafe2cdd596d5",
+      "url": "https://gitlab.freedesktop.org/xorg/lib/libx11/-/raw/59917d28a3c41ad22d6fc52e323cafe2cdd596d5/COPYING",
+      "path": "sources/libX11_COPYING.txt",
+      "sha256": "2e7012a140f000735a7172674a2d314398d79622444fba65d108b029b29ab283",
+      "notice": "Verbatim libX11 root license/notice aggregation; Compose.pre's own retained header remains part of the source."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>US AltGr International AG badge</title>
+  <defs>
+    <mask id="ag-cutout" maskUnits="userSpaceOnUse" x="64" y="64" width="896" height="896">
+      <rect x="64" y="64" width="896" height="896" rx="192" fill="white"/>
+      <g fill="none" stroke="black" stroke-width="96" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M190 728 L360 280 L525 728"/>
+        <path d="M260 550 L458 550"/>
+        <path d="M820 385 C776 301 652 270 570 343 C500 405 500 620 574 691 C653 766 786 724 830 642 L830 545 L705 545"/>
+      </g>
+    </mask>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="192" fill="black" mask="url(#ag-cutout)"/>
+</svg>

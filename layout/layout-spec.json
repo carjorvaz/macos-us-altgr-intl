@@ -1,0 +1,5245 @@
+{
+  "canonical_behavior": "xkeyboard-config 2.48 us(altgr-intl) mechanically expanded as us(intl) plus overrides",
+  "dead_symbols": [
+    "dead_abovedot",
+    "dead_abovering",
+    "dead_acute",
+    "dead_belowdot",
+    "dead_breve",
+    "dead_caron",
+    "dead_cedilla",
+    "dead_circumflex",
+    "dead_diaeresis",
+    "dead_doubleacute",
+    "dead_grave",
+    "dead_hook",
+    "dead_horn",
+    "dead_macron",
+    "dead_ogonek",
+    "dead_stroke",
+    "dead_tilde"
+  ],
+  "group": 126,
+  "group_derivation": {
+    "location": "XML File Structure: negative-id Unicode keyboards are assigned group 126",
+    "source": "apple-tn2056"
+  },
+  "hardware": {
+    "apple_type_range": [
+      0,
+      17
+    ],
+    "supported": [
+      "ANSI",
+      "ISO"
+    ],
+    "unsupported": [
+      "JIS"
+    ]
+  },
+  "keyboard_id": -1169854865,
+  "keyboard_id_derivation": {
+    "algorithm": "negative low-31-bit big-endian SHA-256 prefix; zero becomes -1",
+    "seed_utf8_hex": "75732d616c7467722d696e746c00786b6579626f6172642d636f6e6669672d322e343800636c65616e2d726f6f6d2d7631",
+    "sha256": "c5ba91917a8506afc06fdb45a68264532a8dd8664c76c8044e802402a8eb4845"
+  },
+  "keys": {
+    "AB01": {
+      "apple_keycode": 6,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "z",
+          "keysym": "z",
+          "keysym_source": {
+            "keysym_value": "0x7A",
+            "line": 715,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+007A"
+          },
+          "level": 1,
+          "unicode": "U+007A",
+          "xkb_source": {
+            "levels": [
+              "z",
+              "Z",
+              "ae",
+              "AE"
+            ],
+            "line": 130,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Z",
+          "keysym": "Z",
+          "keysym_source": {
+            "keysym_value": "0x5A",
+            "line": 682,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+005A"
+          },
+          "level": 2,
+          "unicode": "U+005A",
+          "xkb_source": {
+            "levels": [
+              "z",
+              "Z",
+              "ae",
+              "AE"
+            ],
+            "line": 130,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "æ",
+          "keysym": "ae",
+          "keysym_source": {
+            "keysym_value": "0xE6",
+            "line": 797,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00E6"
+          },
+          "level": 3,
+          "unicode": "U+00E6",
+          "xkb_source": {
+            "levels": [
+              "z",
+              "Z",
+              "ae",
+              "AE"
+            ],
+            "line": 130,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Æ",
+          "keysym": "AE",
+          "keysym_source": {
+            "keysym_value": "0xC6",
+            "line": 762,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00C6"
+          },
+          "level": 4,
+          "unicode": "U+00C6",
+          "xkb_source": {
+            "levels": [
+              "z",
+              "Z",
+              "ae",
+              "AE"
+            ],
+            "line": 130,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB02": {
+      "apple_keycode": 7,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "x",
+          "keysym": "x",
+          "keysym_source": {
+            "keysym_value": "0x78",
+            "line": 713,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0078"
+          },
+          "level": 1,
+          "unicode": "U+0078",
+          "xkb_source": {
+            "levels": [
+              "x",
+              "X",
+              "oe",
+              "OE"
+            ],
+            "line": 1026,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "X",
+          "keysym": "X",
+          "keysym_source": {
+            "keysym_value": "0x58",
+            "line": 680,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0058"
+          },
+          "level": 2,
+          "unicode": "U+0058",
+          "xkb_source": {
+            "levels": [
+              "x",
+              "X",
+              "oe",
+              "OE"
+            ],
+            "line": 1026,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "œ",
+          "keysym": "oe",
+          "keysym_source": {
+            "keysym_value": "0x13BD",
+            "line": 1005,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0153"
+          },
+          "level": 3,
+          "unicode": "U+0153",
+          "xkb_source": {
+            "levels": [
+              "x",
+              "X",
+              "oe",
+              "OE"
+            ],
+            "line": 1026,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Œ",
+          "keysym": "OE",
+          "keysym_source": {
+            "keysym_value": "0x13BC",
+            "line": 1004,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0152"
+          },
+          "level": 4,
+          "unicode": "U+0152",
+          "xkb_source": {
+            "levels": [
+              "x",
+              "X",
+              "oe",
+              "OE"
+            ],
+            "line": 1026,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB03": {
+      "apple_keycode": 8,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "c",
+          "keysym": "c",
+          "keysym_source": {
+            "keysym_value": "0x63",
+            "line": 692,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0063"
+          },
+          "level": 1,
+          "unicode": "U+0063",
+          "xkb_source": {
+            "levels": [
+              "c",
+              "C",
+              "copyright",
+              "cent"
+            ],
+            "line": 133,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "C",
+          "keysym": "C",
+          "keysym_source": {
+            "keysym_value": "0x43",
+            "line": 659,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0043"
+          },
+          "level": 2,
+          "unicode": "U+0043",
+          "xkb_source": {
+            "levels": [
+              "c",
+              "C",
+              "copyright",
+              "cent"
+            ],
+            "line": 133,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "©",
+          "keysym": "copyright",
+          "keysym_source": {
+            "keysym_value": "0xA9",
+            "line": 730,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00A9"
+          },
+          "level": 3,
+          "unicode": "U+00A9",
+          "xkb_source": {
+            "levels": [
+              "c",
+              "C",
+              "copyright",
+              "cent"
+            ],
+            "line": 133,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¢",
+          "keysym": "cent",
+          "keysym_source": {
+            "keysym_value": "0xA2",
+            "line": 723,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00A2"
+          },
+          "level": 4,
+          "unicode": "U+00A2",
+          "xkb_source": {
+            "levels": [
+              "c",
+              "C",
+              "copyright",
+              "cent"
+            ],
+            "line": 133,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB04": {
+      "apple_keycode": 9,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "v",
+          "keysym": "v",
+          "keysym_source": {
+            "keysym_value": "0x76",
+            "line": 711,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0076"
+          },
+          "level": 1,
+          "unicode": "U+0076",
+          "xkb_source": {
+            "levels": [
+              "v",
+              "V",
+              "registered",
+              "trademark"
+            ],
+            "line": 1027,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "V",
+          "keysym": "V",
+          "keysym_source": {
+            "keysym_value": "0x56",
+            "line": 678,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0056"
+          },
+          "level": 2,
+          "unicode": "U+0056",
+          "xkb_source": {
+            "levels": [
+              "v",
+              "V",
+              "registered",
+              "trademark"
+            ],
+            "line": 1027,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "®",
+          "keysym": "registered",
+          "keysym_source": {
+            "keysym_value": "0xAE",
+            "line": 736,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00AE"
+          },
+          "level": 3,
+          "unicode": "U+00AE",
+          "xkb_source": {
+            "levels": [
+              "v",
+              "V",
+              "registered",
+              "trademark"
+            ],
+            "line": 1027,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "™",
+          "keysym": "trademark",
+          "keysym_source": {
+            "keysym_value": "0xAC9",
+            "line": 1548,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+2122"
+          },
+          "level": 4,
+          "unicode": "U+2122",
+          "xkb_source": {
+            "levels": [
+              "v",
+              "V",
+              "registered",
+              "trademark"
+            ],
+            "line": 1027,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB05": {
+      "apple_keycode": 11,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "b",
+          "keysym": "b",
+          "keysym_source": {
+            "keysym_value": "0x62",
+            "line": 691,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0062"
+          },
+          "level": 1,
+          "unicode": "U+0062",
+          "xkb_source": {
+            "levels": [
+              "b",
+              "B",
+              "periodcentered",
+              "dead_stroke"
+            ],
+            "line": 1028,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "B",
+          "keysym": "B",
+          "keysym_source": {
+            "keysym_value": "0x42",
+            "line": 658,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0042"
+          },
+          "level": 2,
+          "unicode": "U+0042",
+          "xkb_source": {
+            "levels": [
+              "b",
+              "B",
+              "periodcentered",
+              "dead_stroke"
+            ],
+            "line": 1028,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "·",
+          "keysym": "periodcentered",
+          "keysym_source": {
+            "keysym_value": "0xB7",
+            "line": 745,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00B7"
+          },
+          "level": 3,
+          "unicode": "U+00B7",
+          "xkb_source": {
+            "levels": [
+              "b",
+              "B",
+              "periodcentered",
+              "dead_stroke"
+            ],
+            "line": 1028,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_stroke",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "b",
+              "B",
+              "periodcentered",
+              "dead_stroke"
+            ],
+            "line": 1028,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB06": {
+      "apple_keycode": 45,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "n",
+          "keysym": "n",
+          "keysym_source": {
+            "keysym_value": "0x6E",
+            "line": 703,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+006E"
+          },
+          "level": 1,
+          "unicode": "U+006E",
+          "xkb_source": {
+            "levels": [
+              "n",
+              "N",
+              "ntilde",
+              "Ntilde"
+            ],
+            "line": 136,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "N",
+          "keysym": "N",
+          "keysym_source": {
+            "keysym_value": "0x4E",
+            "line": 670,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+004E"
+          },
+          "level": 2,
+          "unicode": "U+004E",
+          "xkb_source": {
+            "levels": [
+              "n",
+              "N",
+              "ntilde",
+              "Ntilde"
+            ],
+            "line": 136,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ñ",
+          "keysym": "ntilde",
+          "keysym_source": {
+            "keysym_value": "0xF1",
+            "line": 808,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00F1"
+          },
+          "level": 3,
+          "unicode": "U+00F1",
+          "xkb_source": {
+            "levels": [
+              "n",
+              "N",
+              "ntilde",
+              "Ntilde"
+            ],
+            "line": 136,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ñ",
+          "keysym": "Ntilde",
+          "keysym_source": {
+            "keysym_value": "0xD1",
+            "line": 774,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00D1"
+          },
+          "level": 4,
+          "unicode": "U+00D1",
+          "xkb_source": {
+            "levels": [
+              "n",
+              "N",
+              "ntilde",
+              "Ntilde"
+            ],
+            "line": 136,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB07": {
+      "apple_keycode": 46,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "m",
+          "keysym": "m",
+          "keysym_source": {
+            "keysym_value": "0x6D",
+            "line": 702,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+006D"
+          },
+          "level": 1,
+          "unicode": "U+006D",
+          "xkb_source": {
+            "levels": [
+              "m",
+              "M",
+              "mu",
+              "plusminus"
+            ],
+            "line": 137,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "M",
+          "keysym": "M",
+          "keysym_source": {
+            "keysym_value": "0x4D",
+            "line": 669,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+004D"
+          },
+          "level": 2,
+          "unicode": "U+004D",
+          "xkb_source": {
+            "levels": [
+              "m",
+              "M",
+              "mu",
+              "plusminus"
+            ],
+            "line": 137,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "µ",
+          "keysym": "mu",
+          "keysym_source": {
+            "keysym_value": "0xB5",
+            "line": 743,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00B5"
+          },
+          "level": 3,
+          "unicode": "U+00B5",
+          "xkb_source": {
+            "levels": [
+              "m",
+              "M",
+              "mu",
+              "plusminus"
+            ],
+            "line": 137,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "±",
+          "keysym": "plusminus",
+          "keysym_source": {
+            "keysym_value": "0xB1",
+            "line": 739,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00B1"
+          },
+          "level": 4,
+          "unicode": "U+00B1",
+          "xkb_source": {
+            "levels": [
+              "m",
+              "M",
+              "mu",
+              "plusminus"
+            ],
+            "line": 137,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB08": {
+      "apple_keycode": 43,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": ",",
+          "keysym": "comma",
+          "keysym_source": {
+            "keysym_value": "0x2C",
+            "line": 636,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+002C"
+          },
+          "level": 1,
+          "unicode": "U+002C",
+          "xkb_source": {
+            "levels": [
+              "comma",
+              "less",
+              "ccedilla",
+              "Ccedilla"
+            ],
+            "line": 138,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "<",
+          "keysym": "less",
+          "keysym_source": {
+            "keysym_value": "0x3C",
+            "line": 652,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+003C"
+          },
+          "level": 2,
+          "unicode": "U+003C",
+          "xkb_source": {
+            "levels": [
+              "comma",
+              "less",
+              "ccedilla",
+              "Ccedilla"
+            ],
+            "line": 138,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ç",
+          "keysym": "ccedilla",
+          "keysym_source": {
+            "keysym_value": "0xE7",
+            "line": 798,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00E7"
+          },
+          "level": 3,
+          "unicode": "U+00E7",
+          "xkb_source": {
+            "levels": [
+              "comma",
+              "less",
+              "ccedilla",
+              "Ccedilla"
+            ],
+            "line": 138,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ç",
+          "keysym": "Ccedilla",
+          "keysym_source": {
+            "keysym_value": "0xC7",
+            "line": 763,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00C7"
+          },
+          "level": 4,
+          "unicode": "U+00C7",
+          "xkb_source": {
+            "levels": [
+              "comma",
+              "less",
+              "ccedilla",
+              "Ccedilla"
+            ],
+            "line": 138,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB09": {
+      "apple_keycode": 47,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": ".",
+          "keysym": "period",
+          "keysym_source": {
+            "keysym_value": "0x2E",
+            "line": 638,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+002E"
+          },
+          "level": 1,
+          "unicode": "U+002E",
+          "xkb_source": {
+            "levels": [
+              "period",
+              "greater",
+              "dead_abovedot",
+              "dead_caron"
+            ],
+            "line": 139,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": ">",
+          "keysym": "greater",
+          "keysym_source": {
+            "keysym_value": "0x3E",
+            "line": 654,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+003E"
+          },
+          "level": 2,
+          "unicode": "U+003E",
+          "xkb_source": {
+            "levels": [
+              "period",
+              "greater",
+              "dead_abovedot",
+              "dead_caron"
+            ],
+            "line": 139,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_abovedot",
+          "level": 3,
+          "xkb_source": {
+            "levels": [
+              "period",
+              "greater",
+              "dead_abovedot",
+              "dead_caron"
+            ],
+            "line": 139,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_caron",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "period",
+              "greater",
+              "dead_abovedot",
+              "dead_caron"
+            ],
+            "line": 139,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AB10": {
+      "apple_keycode": 44,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "/",
+          "keysym": "slash",
+          "keysym_source": {
+            "keysym_value": "0x2F",
+            "line": 639,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+002F"
+          },
+          "level": 1,
+          "unicode": "U+002F",
+          "xkb_source": {
+            "levels": [
+              "slash",
+              "question",
+              "questiondown",
+              "dead_hook"
+            ],
+            "line": 140,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "?",
+          "keysym": "question",
+          "keysym_source": {
+            "keysym_value": "0x3F",
+            "line": 655,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+003F"
+          },
+          "level": 2,
+          "unicode": "U+003F",
+          "xkb_source": {
+            "levels": [
+              "slash",
+              "question",
+              "questiondown",
+              "dead_hook"
+            ],
+            "line": 140,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¿",
+          "keysym": "questiondown",
+          "keysym_source": {
+            "keysym_value": "0xBF",
+            "line": 755,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00BF"
+          },
+          "level": 3,
+          "unicode": "U+00BF",
+          "xkb_source": {
+            "levels": [
+              "slash",
+              "question",
+              "questiondown",
+              "dead_hook"
+            ],
+            "line": 140,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_hook",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "slash",
+              "question",
+              "questiondown",
+              "dead_hook"
+            ],
+            "line": 140,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC01": {
+      "apple_keycode": 0,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "a",
+          "keysym": "a",
+          "keysym_source": {
+            "keysym_value": "0x61",
+            "line": 690,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0061"
+          },
+          "level": 1,
+          "unicode": "U+0061",
+          "xkb_source": {
+            "levels": [
+              "a",
+              "A",
+              "aacute",
+              "Aacute"
+            ],
+            "line": 118,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "A",
+          "keysym": "A",
+          "keysym_source": {
+            "keysym_value": "0x41",
+            "line": 657,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0041"
+          },
+          "level": 2,
+          "unicode": "U+0041",
+          "xkb_source": {
+            "levels": [
+              "a",
+              "A",
+              "aacute",
+              "Aacute"
+            ],
+            "line": 118,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "á",
+          "keysym": "aacute",
+          "keysym_source": {
+            "keysym_value": "0xE1",
+            "line": 792,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00E1"
+          },
+          "level": 3,
+          "unicode": "U+00E1",
+          "xkb_source": {
+            "levels": [
+              "a",
+              "A",
+              "aacute",
+              "Aacute"
+            ],
+            "line": 118,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Á",
+          "keysym": "Aacute",
+          "keysym_source": {
+            "keysym_value": "0xC1",
+            "line": 757,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00C1"
+          },
+          "level": 4,
+          "unicode": "U+00C1",
+          "xkb_source": {
+            "levels": [
+              "a",
+              "A",
+              "aacute",
+              "Aacute"
+            ],
+            "line": 118,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC02": {
+      "apple_keycode": 1,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "s",
+          "keysym": "s",
+          "keysym_source": {
+            "keysym_value": "0x73",
+            "line": 708,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0073"
+          },
+          "level": 1,
+          "unicode": "U+0073",
+          "xkb_source": {
+            "levels": [
+              "s",
+              "S",
+              "ssharp",
+              "section"
+            ],
+            "line": 120,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "S",
+          "keysym": "S",
+          "keysym_source": {
+            "keysym_value": "0x53",
+            "line": 675,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0053"
+          },
+          "level": 2,
+          "unicode": "U+0053",
+          "xkb_source": {
+            "levels": [
+              "s",
+              "S",
+              "ssharp",
+              "section"
+            ],
+            "line": 120,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ß",
+          "keysym": "ssharp",
+          "keysym_source": {
+            "keysym_value": "0xDF",
+            "line": 790,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00DF"
+          },
+          "level": 3,
+          "unicode": "U+00DF",
+          "xkb_source": {
+            "levels": [
+              "s",
+              "S",
+              "ssharp",
+              "section"
+            ],
+            "line": 120,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "§",
+          "keysym": "section",
+          "keysym_source": {
+            "keysym_value": "0xA7",
+            "line": 728,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00A7"
+          },
+          "level": 4,
+          "unicode": "U+00A7",
+          "xkb_source": {
+            "levels": [
+              "s",
+              "S",
+              "ssharp",
+              "section"
+            ],
+            "line": 120,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC03": {
+      "apple_keycode": 2,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "d",
+          "keysym": "d",
+          "keysym_source": {
+            "keysym_value": "0x64",
+            "line": 693,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0064"
+          },
+          "level": 1,
+          "unicode": "U+0064",
+          "xkb_source": {
+            "levels": [
+              "d",
+              "D",
+              "eth",
+              "ETH"
+            ],
+            "line": 121,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "D",
+          "keysym": "D",
+          "keysym_source": {
+            "keysym_value": "0x44",
+            "line": 660,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0044"
+          },
+          "level": 2,
+          "unicode": "U+0044",
+          "xkb_source": {
+            "levels": [
+              "d",
+              "D",
+              "eth",
+              "ETH"
+            ],
+            "line": 121,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ð",
+          "keysym": "eth",
+          "keysym_source": {
+            "keysym_value": "0xF0",
+            "line": 807,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00F0"
+          },
+          "level": 3,
+          "unicode": "U+00F0",
+          "xkb_source": {
+            "levels": [
+              "d",
+              "D",
+              "eth",
+              "ETH"
+            ],
+            "line": 121,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ð",
+          "keysym": "ETH",
+          "keysym_source": {
+            "keysym_value": "0xD0",
+            "line": 772,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00D0"
+          },
+          "level": 4,
+          "unicode": "U+00D0",
+          "xkb_source": {
+            "levels": [
+              "d",
+              "D",
+              "eth",
+              "ETH"
+            ],
+            "line": 121,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC04": {
+      "apple_keycode": 3,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "f",
+          "keysym": "f",
+          "keysym_source": {
+            "keysym_value": "0x66",
+            "line": 695,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0066"
+          },
+          "level": 1,
+          "unicode": "U+0066",
+          "xkb_source": {
+            "levels": [
+              "f",
+              "F",
+              "f",
+              "F"
+            ],
+            "line": 1025,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "F",
+          "keysym": "F",
+          "keysym_source": {
+            "keysym_value": "0x46",
+            "line": 662,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0046"
+          },
+          "level": 2,
+          "unicode": "U+0046",
+          "xkb_source": {
+            "levels": [
+              "f",
+              "F",
+              "f",
+              "F"
+            ],
+            "line": 1025,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "f",
+          "keysym": "f",
+          "keysym_source": {
+            "keysym_value": "0x66",
+            "line": 695,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0066"
+          },
+          "level": 3,
+          "unicode": "U+0066",
+          "xkb_source": {
+            "levels": [
+              "f",
+              "F",
+              "f",
+              "F"
+            ],
+            "line": 1025,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "F",
+          "keysym": "F",
+          "keysym_source": {
+            "keysym_value": "0x46",
+            "line": 662,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0046"
+          },
+          "level": 4,
+          "unicode": "U+0046",
+          "xkb_source": {
+            "levels": [
+              "f",
+              "F",
+              "f",
+              "F"
+            ],
+            "line": 1025,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC05": {
+      "apple_keycode": 5,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "g",
+          "keysym": "g",
+          "keysym_source": {
+            "keysym_value": "0x67",
+            "line": 696,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0067"
+          },
+          "level": 1,
+          "unicode": "U+0067",
+          "xkb_source": {
+            "levels": [
+              "g",
+              "G",
+              "g",
+              "G"
+            ],
+            "line": 123,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "G",
+          "keysym": "G",
+          "keysym_source": {
+            "keysym_value": "0x47",
+            "line": 663,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0047"
+          },
+          "level": 2,
+          "unicode": "U+0047",
+          "xkb_source": {
+            "levels": [
+              "g",
+              "G",
+              "g",
+              "G"
+            ],
+            "line": 123,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "g",
+          "keysym": "g",
+          "keysym_source": {
+            "keysym_value": "0x67",
+            "line": 696,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0067"
+          },
+          "level": 3,
+          "unicode": "U+0067",
+          "xkb_source": {
+            "levels": [
+              "g",
+              "G",
+              "g",
+              "G"
+            ],
+            "line": 123,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "G",
+          "keysym": "G",
+          "keysym_source": {
+            "keysym_value": "0x47",
+            "line": 663,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0047"
+          },
+          "level": 4,
+          "unicode": "U+0047",
+          "xkb_source": {
+            "levels": [
+              "g",
+              "G",
+              "g",
+              "G"
+            ],
+            "line": 123,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC06": {
+      "apple_keycode": 4,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "h",
+          "keysym": "h",
+          "keysym_source": {
+            "keysym_value": "0x68",
+            "line": 697,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0068"
+          },
+          "level": 1,
+          "unicode": "U+0068",
+          "xkb_source": {
+            "levels": [
+              "h",
+              "H",
+              "h",
+              "H"
+            ],
+            "line": 124,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "H",
+          "keysym": "H",
+          "keysym_source": {
+            "keysym_value": "0x48",
+            "line": 664,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0048"
+          },
+          "level": 2,
+          "unicode": "U+0048",
+          "xkb_source": {
+            "levels": [
+              "h",
+              "H",
+              "h",
+              "H"
+            ],
+            "line": 124,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "h",
+          "keysym": "h",
+          "keysym_source": {
+            "keysym_value": "0x68",
+            "line": 697,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0068"
+          },
+          "level": 3,
+          "unicode": "U+0068",
+          "xkb_source": {
+            "levels": [
+              "h",
+              "H",
+              "h",
+              "H"
+            ],
+            "line": 124,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "H",
+          "keysym": "H",
+          "keysym_source": {
+            "keysym_value": "0x48",
+            "line": 664,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0048"
+          },
+          "level": 4,
+          "unicode": "U+0048",
+          "xkb_source": {
+            "levels": [
+              "h",
+              "H",
+              "h",
+              "H"
+            ],
+            "line": 124,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC07": {
+      "apple_keycode": 38,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "j",
+          "keysym": "j",
+          "keysym_source": {
+            "keysym_value": "0x6A",
+            "line": 699,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+006A"
+          },
+          "level": 1,
+          "unicode": "U+006A",
+          "xkb_source": {
+            "levels": [
+              "j",
+              "J",
+              "idiaeresis",
+              "Idiaeresis"
+            ],
+            "line": 125,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "J",
+          "keysym": "J",
+          "keysym_source": {
+            "keysym_value": "0x4A",
+            "line": 666,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+004A"
+          },
+          "level": 2,
+          "unicode": "U+004A",
+          "xkb_source": {
+            "levels": [
+              "j",
+              "J",
+              "idiaeresis",
+              "Idiaeresis"
+            ],
+            "line": 125,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ï",
+          "keysym": "idiaeresis",
+          "keysym_source": {
+            "keysym_value": "0xEF",
+            "line": 806,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00EF"
+          },
+          "level": 3,
+          "unicode": "U+00EF",
+          "xkb_source": {
+            "levels": [
+              "j",
+              "J",
+              "idiaeresis",
+              "Idiaeresis"
+            ],
+            "line": 125,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ï",
+          "keysym": "Idiaeresis",
+          "keysym_source": {
+            "keysym_value": "0xCF",
+            "line": 771,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00CF"
+          },
+          "level": 4,
+          "unicode": "U+00CF",
+          "xkb_source": {
+            "levels": [
+              "j",
+              "J",
+              "idiaeresis",
+              "Idiaeresis"
+            ],
+            "line": 125,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC08": {
+      "apple_keycode": 40,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "k",
+          "keysym": "k",
+          "keysym_source": {
+            "keysym_value": "0x6B",
+            "line": 700,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+006B"
+          },
+          "level": 1,
+          "unicode": "U+006B",
+          "xkb_source": {
+            "levels": [
+              "k",
+              "K",
+              "oe",
+              "OE"
+            ],
+            "line": 126,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "K",
+          "keysym": "K",
+          "keysym_source": {
+            "keysym_value": "0x4B",
+            "line": 667,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+004B"
+          },
+          "level": 2,
+          "unicode": "U+004B",
+          "xkb_source": {
+            "levels": [
+              "k",
+              "K",
+              "oe",
+              "OE"
+            ],
+            "line": 126,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "œ",
+          "keysym": "oe",
+          "keysym_source": {
+            "keysym_value": "0x13BD",
+            "line": 1005,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0153"
+          },
+          "level": 3,
+          "unicode": "U+0153",
+          "xkb_source": {
+            "levels": [
+              "k",
+              "K",
+              "oe",
+              "OE"
+            ],
+            "line": 126,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Œ",
+          "keysym": "OE",
+          "keysym_source": {
+            "keysym_value": "0x13BC",
+            "line": 1004,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0152"
+          },
+          "level": 4,
+          "unicode": "U+0152",
+          "xkb_source": {
+            "levels": [
+              "k",
+              "K",
+              "oe",
+              "OE"
+            ],
+            "line": 126,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC09": {
+      "apple_keycode": 37,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "l",
+          "keysym": "l",
+          "keysym_source": {
+            "keysym_value": "0x6C",
+            "line": 701,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+006C"
+          },
+          "level": 1,
+          "unicode": "U+006C",
+          "xkb_source": {
+            "levels": [
+              "l",
+              "L",
+              "oslash",
+              "Oslash"
+            ],
+            "line": 127,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "L",
+          "keysym": "L",
+          "keysym_source": {
+            "keysym_value": "0x4C",
+            "line": 668,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+004C"
+          },
+          "level": 2,
+          "unicode": "U+004C",
+          "xkb_source": {
+            "levels": [
+              "l",
+              "L",
+              "oslash",
+              "Oslash"
+            ],
+            "line": 127,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ø",
+          "keysym": "oslash",
+          "keysym_source": {
+            "keysym_value": "0xF8",
+            "line": 815,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00F8"
+          },
+          "level": 3,
+          "unicode": "U+00F8",
+          "xkb_source": {
+            "levels": [
+              "l",
+              "L",
+              "oslash",
+              "Oslash"
+            ],
+            "line": 127,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ø",
+          "keysym": "Oslash",
+          "keysym_source": {
+            "keysym_value": "0xD8",
+            "line": 781,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00D8"
+          },
+          "level": 4,
+          "unicode": "U+00D8",
+          "xkb_source": {
+            "levels": [
+              "l",
+              "L",
+              "oslash",
+              "Oslash"
+            ],
+            "line": 127,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC10": {
+      "apple_keycode": 41,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": ";",
+          "keysym": "semicolon",
+          "keysym_source": {
+            "keysym_value": "0x3B",
+            "line": 651,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+003B"
+          },
+          "level": 1,
+          "unicode": "U+003B",
+          "xkb_source": {
+            "levels": [
+              "semicolon",
+              "colon",
+              "paragraph",
+              "degree"
+            ],
+            "line": 128,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": ":",
+          "keysym": "colon",
+          "keysym_source": {
+            "keysym_value": "0x3A",
+            "line": 650,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+003A"
+          },
+          "level": 2,
+          "unicode": "U+003A",
+          "xkb_source": {
+            "levels": [
+              "semicolon",
+              "colon",
+              "paragraph",
+              "degree"
+            ],
+            "line": 128,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¶",
+          "keysym": "paragraph",
+          "keysym_source": {
+            "keysym_value": "0xB6",
+            "line": 744,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00B6"
+          },
+          "level": 3,
+          "unicode": "U+00B6",
+          "xkb_source": {
+            "levels": [
+              "semicolon",
+              "colon",
+              "paragraph",
+              "degree"
+            ],
+            "line": 128,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "°",
+          "keysym": "degree",
+          "keysym_source": {
+            "keysym_value": "0xB0",
+            "line": 738,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00B0"
+          },
+          "level": 4,
+          "unicode": "U+00B0",
+          "xkb_source": {
+            "levels": [
+              "semicolon",
+              "colon",
+              "paragraph",
+              "degree"
+            ],
+            "line": 128,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AC11": {
+      "apple_keycode": 39,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "'",
+          "keysym": "apostrophe",
+          "keysym_source": {
+            "keysym_value": "0x27",
+            "line": 630,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0027"
+          },
+          "level": 1,
+          "unicode": "U+0027",
+          "xkb_source": {
+            "levels": [
+              "apostrophe",
+              "quotedbl",
+              "dead_acute",
+              "dead_diaeresis"
+            ],
+            "line": 1019,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "\"",
+          "keysym": "quotedbl",
+          "keysym_source": {
+            "keysym_value": "0x22",
+            "line": 625,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0022"
+          },
+          "level": 2,
+          "unicode": "U+0022",
+          "xkb_source": {
+            "levels": [
+              "apostrophe",
+              "quotedbl",
+              "dead_acute",
+              "dead_diaeresis"
+            ],
+            "line": 1019,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_acute",
+          "level": 3,
+          "xkb_source": {
+            "levels": [
+              "apostrophe",
+              "quotedbl",
+              "dead_acute",
+              "dead_diaeresis"
+            ],
+            "line": 1019,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_diaeresis",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "apostrophe",
+              "quotedbl",
+              "dead_acute",
+              "dead_diaeresis"
+            ],
+            "line": 1019,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD01": {
+      "apple_keycode": 12,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "q",
+          "keysym": "q",
+          "keysym_source": {
+            "keysym_value": "0x71",
+            "line": 706,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0071"
+          },
+          "level": 1,
+          "unicode": "U+0071",
+          "xkb_source": {
+            "levels": [
+              "q",
+              "Q",
+              "adiaeresis",
+              "Adiaeresis"
+            ],
+            "line": 105,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Q",
+          "keysym": "Q",
+          "keysym_source": {
+            "keysym_value": "0x51",
+            "line": 673,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0051"
+          },
+          "level": 2,
+          "unicode": "U+0051",
+          "xkb_source": {
+            "levels": [
+              "q",
+              "Q",
+              "adiaeresis",
+              "Adiaeresis"
+            ],
+            "line": 105,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ä",
+          "keysym": "adiaeresis",
+          "keysym_source": {
+            "keysym_value": "0xE4",
+            "line": 795,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00E4"
+          },
+          "level": 3,
+          "unicode": "U+00E4",
+          "xkb_source": {
+            "levels": [
+              "q",
+              "Q",
+              "adiaeresis",
+              "Adiaeresis"
+            ],
+            "line": 105,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ä",
+          "keysym": "Adiaeresis",
+          "keysym_source": {
+            "keysym_value": "0xC4",
+            "line": 760,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00C4"
+          },
+          "level": 4,
+          "unicode": "U+00C4",
+          "xkb_source": {
+            "levels": [
+              "q",
+              "Q",
+              "adiaeresis",
+              "Adiaeresis"
+            ],
+            "line": 105,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD02": {
+      "apple_keycode": 13,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "w",
+          "keysym": "w",
+          "keysym_source": {
+            "keysym_value": "0x77",
+            "line": 712,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0077"
+          },
+          "level": 1,
+          "unicode": "U+0077",
+          "xkb_source": {
+            "levels": [
+              "w",
+              "W",
+              "aring",
+              "Aring"
+            ],
+            "line": 107,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "W",
+          "keysym": "W",
+          "keysym_source": {
+            "keysym_value": "0x57",
+            "line": 679,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0057"
+          },
+          "level": 2,
+          "unicode": "U+0057",
+          "xkb_source": {
+            "levels": [
+              "w",
+              "W",
+              "aring",
+              "Aring"
+            ],
+            "line": 107,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "å",
+          "keysym": "aring",
+          "keysym_source": {
+            "keysym_value": "0xE5",
+            "line": 796,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00E5"
+          },
+          "level": 3,
+          "unicode": "U+00E5",
+          "xkb_source": {
+            "levels": [
+              "w",
+              "W",
+              "aring",
+              "Aring"
+            ],
+            "line": 107,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Å",
+          "keysym": "Aring",
+          "keysym_source": {
+            "keysym_value": "0xC5",
+            "line": 761,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00C5"
+          },
+          "level": 4,
+          "unicode": "U+00C5",
+          "xkb_source": {
+            "levels": [
+              "w",
+              "W",
+              "aring",
+              "Aring"
+            ],
+            "line": 107,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD03": {
+      "apple_keycode": 14,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "e",
+          "keysym": "e",
+          "keysym_source": {
+            "keysym_value": "0x65",
+            "line": 694,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0065"
+          },
+          "level": 1,
+          "unicode": "U+0065",
+          "xkb_source": {
+            "levels": [
+              "e",
+              "E",
+              "eacute",
+              "Eacute"
+            ],
+            "line": 108,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "E",
+          "keysym": "E",
+          "keysym_source": {
+            "keysym_value": "0x45",
+            "line": 661,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0045"
+          },
+          "level": 2,
+          "unicode": "U+0045",
+          "xkb_source": {
+            "levels": [
+              "e",
+              "E",
+              "eacute",
+              "Eacute"
+            ],
+            "line": 108,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "é",
+          "keysym": "eacute",
+          "keysym_source": {
+            "keysym_value": "0xE9",
+            "line": 800,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00E9"
+          },
+          "level": 3,
+          "unicode": "U+00E9",
+          "xkb_source": {
+            "levels": [
+              "e",
+              "E",
+              "eacute",
+              "Eacute"
+            ],
+            "line": 108,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "É",
+          "keysym": "Eacute",
+          "keysym_source": {
+            "keysym_value": "0xC9",
+            "line": 765,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00C9"
+          },
+          "level": 4,
+          "unicode": "U+00C9",
+          "xkb_source": {
+            "levels": [
+              "e",
+              "E",
+              "eacute",
+              "Eacute"
+            ],
+            "line": 108,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD04": {
+      "apple_keycode": 15,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "r",
+          "keysym": "r",
+          "keysym_source": {
+            "keysym_value": "0x72",
+            "line": 707,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0072"
+          },
+          "level": 1,
+          "unicode": "U+0072",
+          "xkb_source": {
+            "levels": [
+              "r",
+              "R",
+              "ediaeresis",
+              "Ediaeresis"
+            ],
+            "line": 1024,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "R",
+          "keysym": "R",
+          "keysym_source": {
+            "keysym_value": "0x52",
+            "line": 674,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0052"
+          },
+          "level": 2,
+          "unicode": "U+0052",
+          "xkb_source": {
+            "levels": [
+              "r",
+              "R",
+              "ediaeresis",
+              "Ediaeresis"
+            ],
+            "line": 1024,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ë",
+          "keysym": "ediaeresis",
+          "keysym_source": {
+            "keysym_value": "0xEB",
+            "line": 802,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00EB"
+          },
+          "level": 3,
+          "unicode": "U+00EB",
+          "xkb_source": {
+            "levels": [
+              "r",
+              "R",
+              "ediaeresis",
+              "Ediaeresis"
+            ],
+            "line": 1024,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ë",
+          "keysym": "Ediaeresis",
+          "keysym_source": {
+            "keysym_value": "0xCB",
+            "line": 767,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00CB"
+          },
+          "level": 4,
+          "unicode": "U+00CB",
+          "xkb_source": {
+            "levels": [
+              "r",
+              "R",
+              "ediaeresis",
+              "Ediaeresis"
+            ],
+            "line": 1024,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD05": {
+      "apple_keycode": 17,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "t",
+          "keysym": "t",
+          "keysym_source": {
+            "keysym_value": "0x74",
+            "line": 709,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0074"
+          },
+          "level": 1,
+          "unicode": "U+0074",
+          "xkb_source": {
+            "levels": [
+              "t",
+              "T",
+              "thorn",
+              "THORN"
+            ],
+            "line": 110,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "T",
+          "keysym": "T",
+          "keysym_source": {
+            "keysym_value": "0x54",
+            "line": 676,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0054"
+          },
+          "level": 2,
+          "unicode": "U+0054",
+          "xkb_source": {
+            "levels": [
+              "t",
+              "T",
+              "thorn",
+              "THORN"
+            ],
+            "line": 110,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "þ",
+          "keysym": "thorn",
+          "keysym_source": {
+            "keysym_value": "0xFE",
+            "line": 822,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00FE"
+          },
+          "level": 3,
+          "unicode": "U+00FE",
+          "xkb_source": {
+            "levels": [
+              "t",
+              "T",
+              "thorn",
+              "THORN"
+            ],
+            "line": 110,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Þ",
+          "keysym": "THORN",
+          "keysym_source": {
+            "keysym_value": "0xDE",
+            "line": 788,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00DE"
+          },
+          "level": 4,
+          "unicode": "U+00DE",
+          "xkb_source": {
+            "levels": [
+              "t",
+              "T",
+              "thorn",
+              "THORN"
+            ],
+            "line": 110,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD06": {
+      "apple_keycode": 16,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "y",
+          "keysym": "y",
+          "keysym_source": {
+            "keysym_value": "0x79",
+            "line": 714,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0079"
+          },
+          "level": 1,
+          "unicode": "U+0079",
+          "xkb_source": {
+            "levels": [
+              "y",
+              "Y",
+              "udiaeresis",
+              "Udiaeresis"
+            ],
+            "line": 111,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Y",
+          "keysym": "Y",
+          "keysym_source": {
+            "keysym_value": "0x59",
+            "line": 681,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0059"
+          },
+          "level": 2,
+          "unicode": "U+0059",
+          "xkb_source": {
+            "levels": [
+              "y",
+              "Y",
+              "udiaeresis",
+              "Udiaeresis"
+            ],
+            "line": 111,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ü",
+          "keysym": "udiaeresis",
+          "keysym_source": {
+            "keysym_value": "0xFC",
+            "line": 820,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00FC"
+          },
+          "level": 3,
+          "unicode": "U+00FC",
+          "xkb_source": {
+            "levels": [
+              "y",
+              "Y",
+              "udiaeresis",
+              "Udiaeresis"
+            ],
+            "line": 111,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ü",
+          "keysym": "Udiaeresis",
+          "keysym_source": {
+            "keysym_value": "0xDC",
+            "line": 786,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00DC"
+          },
+          "level": 4,
+          "unicode": "U+00DC",
+          "xkb_source": {
+            "levels": [
+              "y",
+              "Y",
+              "udiaeresis",
+              "Udiaeresis"
+            ],
+            "line": 111,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD07": {
+      "apple_keycode": 32,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "u",
+          "keysym": "u",
+          "keysym_source": {
+            "keysym_value": "0x75",
+            "line": 710,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0075"
+          },
+          "level": 1,
+          "unicode": "U+0075",
+          "xkb_source": {
+            "levels": [
+              "u",
+              "U",
+              "uacute",
+              "Uacute"
+            ],
+            "line": 112,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "U",
+          "keysym": "U",
+          "keysym_source": {
+            "keysym_value": "0x55",
+            "line": 677,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0055"
+          },
+          "level": 2,
+          "unicode": "U+0055",
+          "xkb_source": {
+            "levels": [
+              "u",
+              "U",
+              "uacute",
+              "Uacute"
+            ],
+            "line": 112,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ú",
+          "keysym": "uacute",
+          "keysym_source": {
+            "keysym_value": "0xFA",
+            "line": 818,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00FA"
+          },
+          "level": 3,
+          "unicode": "U+00FA",
+          "xkb_source": {
+            "levels": [
+              "u",
+              "U",
+              "uacute",
+              "Uacute"
+            ],
+            "line": 112,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ú",
+          "keysym": "Uacute",
+          "keysym_source": {
+            "keysym_value": "0xDA",
+            "line": 784,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00DA"
+          },
+          "level": 4,
+          "unicode": "U+00DA",
+          "xkb_source": {
+            "levels": [
+              "u",
+              "U",
+              "uacute",
+              "Uacute"
+            ],
+            "line": 112,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD08": {
+      "apple_keycode": 34,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "i",
+          "keysym": "i",
+          "keysym_source": {
+            "keysym_value": "0x69",
+            "line": 698,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0069"
+          },
+          "level": 1,
+          "unicode": "U+0069",
+          "xkb_source": {
+            "levels": [
+              "i",
+              "I",
+              "iacute",
+              "Iacute"
+            ],
+            "line": 113,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "I",
+          "keysym": "I",
+          "keysym_source": {
+            "keysym_value": "0x49",
+            "line": 665,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0049"
+          },
+          "level": 2,
+          "unicode": "U+0049",
+          "xkb_source": {
+            "levels": [
+              "i",
+              "I",
+              "iacute",
+              "Iacute"
+            ],
+            "line": 113,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "í",
+          "keysym": "iacute",
+          "keysym_source": {
+            "keysym_value": "0xED",
+            "line": 804,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00ED"
+          },
+          "level": 3,
+          "unicode": "U+00ED",
+          "xkb_source": {
+            "levels": [
+              "i",
+              "I",
+              "iacute",
+              "Iacute"
+            ],
+            "line": 113,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Í",
+          "keysym": "Iacute",
+          "keysym_source": {
+            "keysym_value": "0xCD",
+            "line": 769,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00CD"
+          },
+          "level": 4,
+          "unicode": "U+00CD",
+          "xkb_source": {
+            "levels": [
+              "i",
+              "I",
+              "iacute",
+              "Iacute"
+            ],
+            "line": 113,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD09": {
+      "apple_keycode": 31,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "o",
+          "keysym": "o",
+          "keysym_source": {
+            "keysym_value": "0x6F",
+            "line": 704,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+006F"
+          },
+          "level": 1,
+          "unicode": "U+006F",
+          "xkb_source": {
+            "levels": [
+              "o",
+              "O",
+              "oacute",
+              "Oacute"
+            ],
+            "line": 114,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "O",
+          "keysym": "O",
+          "keysym_source": {
+            "keysym_value": "0x4F",
+            "line": 671,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+004F"
+          },
+          "level": 2,
+          "unicode": "U+004F",
+          "xkb_source": {
+            "levels": [
+              "o",
+              "O",
+              "oacute",
+              "Oacute"
+            ],
+            "line": 114,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ó",
+          "keysym": "oacute",
+          "keysym_source": {
+            "keysym_value": "0xF3",
+            "line": 810,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00F3"
+          },
+          "level": 3,
+          "unicode": "U+00F3",
+          "xkb_source": {
+            "levels": [
+              "o",
+              "O",
+              "oacute",
+              "Oacute"
+            ],
+            "line": 114,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ó",
+          "keysym": "Oacute",
+          "keysym_source": {
+            "keysym_value": "0xD3",
+            "line": 776,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00D3"
+          },
+          "level": 4,
+          "unicode": "U+00D3",
+          "xkb_source": {
+            "levels": [
+              "o",
+              "O",
+              "oacute",
+              "Oacute"
+            ],
+            "line": 114,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD10": {
+      "apple_keycode": 35,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "p",
+          "keysym": "p",
+          "keysym_source": {
+            "keysym_value": "0x70",
+            "line": 705,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0070"
+          },
+          "level": 1,
+          "unicode": "U+0070",
+          "xkb_source": {
+            "levels": [
+              "p",
+              "P",
+              "odiaeresis",
+              "Odiaeresis"
+            ],
+            "line": 115,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "P",
+          "keysym": "P",
+          "keysym_source": {
+            "keysym_value": "0x50",
+            "line": 672,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0050"
+          },
+          "level": 2,
+          "unicode": "U+0050",
+          "xkb_source": {
+            "levels": [
+              "p",
+              "P",
+              "odiaeresis",
+              "Odiaeresis"
+            ],
+            "line": 115,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "ö",
+          "keysym": "odiaeresis",
+          "keysym_source": {
+            "keysym_value": "0xF6",
+            "line": 813,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00F6"
+          },
+          "level": 3,
+          "unicode": "U+00F6",
+          "xkb_source": {
+            "levels": [
+              "p",
+              "P",
+              "odiaeresis",
+              "Odiaeresis"
+            ],
+            "line": 115,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "Ö",
+          "keysym": "Odiaeresis",
+          "keysym_source": {
+            "keysym_value": "0xD6",
+            "line": 779,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00D6"
+          },
+          "level": 4,
+          "unicode": "U+00D6",
+          "xkb_source": {
+            "levels": [
+              "p",
+              "P",
+              "odiaeresis",
+              "Odiaeresis"
+            ],
+            "line": 115,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD11": {
+      "apple_keycode": 33,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "[",
+          "keysym": "bracketleft",
+          "keysym_source": {
+            "keysym_value": "0x5B",
+            "line": 683,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+005B"
+          },
+          "level": 1,
+          "unicode": "U+005B",
+          "xkb_source": {
+            "levels": [
+              "bracketleft",
+              "braceleft",
+              "guillemotleft",
+              "leftdoublequotemark"
+            ],
+            "line": 116,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "{",
+          "keysym": "braceleft",
+          "keysym_source": {
+            "keysym_value": "0x7B",
+            "line": 716,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+007B"
+          },
+          "level": 2,
+          "unicode": "U+007B",
+          "xkb_source": {
+            "levels": [
+              "bracketleft",
+              "braceleft",
+              "guillemotleft",
+              "leftdoublequotemark"
+            ],
+            "line": 116,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "«",
+          "keysym": "guillemotleft",
+          "keysym_source": {
+            "keysym_value": "0xAB",
+            "line": 732,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00AB"
+          },
+          "level": 3,
+          "unicode": "U+00AB",
+          "xkb_source": {
+            "levels": [
+              "bracketleft",
+              "braceleft",
+              "guillemotleft",
+              "leftdoublequotemark"
+            ],
+            "line": 116,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "“",
+          "keysym": "leftdoublequotemark",
+          "keysym_source": {
+            "keysym_value": "0xAD2",
+            "line": 1557,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+201C"
+          },
+          "level": 4,
+          "unicode": "U+201C",
+          "xkb_source": {
+            "levels": [
+              "bracketleft",
+              "braceleft",
+              "guillemotleft",
+              "leftdoublequotemark"
+            ],
+            "line": 116,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AD12": {
+      "apple_keycode": 30,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "]",
+          "keysym": "bracketright",
+          "keysym_source": {
+            "keysym_value": "0x5D",
+            "line": 685,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+005D"
+          },
+          "level": 1,
+          "unicode": "U+005D",
+          "xkb_source": {
+            "levels": [
+              "bracketright",
+              "braceright",
+              "guillemotright",
+              "rightdoublequotemark"
+            ],
+            "line": 117,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "}",
+          "keysym": "braceright",
+          "keysym_source": {
+            "keysym_value": "0x7D",
+            "line": 718,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+007D"
+          },
+          "level": 2,
+          "unicode": "U+007D",
+          "xkb_source": {
+            "levels": [
+              "bracketright",
+              "braceright",
+              "guillemotright",
+              "rightdoublequotemark"
+            ],
+            "line": 117,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "»",
+          "keysym": "guillemotright",
+          "keysym_source": {
+            "keysym_value": "0xBB",
+            "line": 750,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00BB"
+          },
+          "level": 3,
+          "unicode": "U+00BB",
+          "xkb_source": {
+            "levels": [
+              "bracketright",
+              "braceright",
+              "guillemotright",
+              "rightdoublequotemark"
+            ],
+            "line": 117,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "”",
+          "keysym": "rightdoublequotemark",
+          "keysym_source": {
+            "keysym_value": "0xAD3",
+            "line": 1558,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+201D"
+          },
+          "level": 4,
+          "unicode": "U+201D",
+          "xkb_source": {
+            "levels": [
+              "bracketright",
+              "braceright",
+              "guillemotright",
+              "rightdoublequotemark"
+            ],
+            "line": 117,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE01": {
+      "apple_keycode": 18,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "1",
+          "keysym": "1",
+          "keysym_source": {
+            "keysym_value": "0x31",
+            "line": 641,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0031"
+          },
+          "level": 1,
+          "unicode": "U+0031",
+          "xkb_source": {
+            "levels": [
+              "1",
+              "exclam",
+              "onesuperior",
+              "exclamdown"
+            ],
+            "line": 1022,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "!",
+          "keysym": "exclam",
+          "keysym_source": {
+            "keysym_value": "0x21",
+            "line": 624,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0021"
+          },
+          "level": 2,
+          "unicode": "U+0021",
+          "xkb_source": {
+            "levels": [
+              "1",
+              "exclam",
+              "onesuperior",
+              "exclamdown"
+            ],
+            "line": 1022,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¹",
+          "keysym": "onesuperior",
+          "keysym_source": {
+            "keysym_value": "0xB9",
+            "line": 747,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00B9"
+          },
+          "level": 3,
+          "unicode": "U+00B9",
+          "xkb_source": {
+            "levels": [
+              "1",
+              "exclam",
+              "onesuperior",
+              "exclamdown"
+            ],
+            "line": 1022,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¡",
+          "keysym": "exclamdown",
+          "keysym_source": {
+            "keysym_value": "0xA1",
+            "line": 722,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00A1"
+          },
+          "level": 4,
+          "unicode": "U+00A1",
+          "xkb_source": {
+            "levels": [
+              "1",
+              "exclam",
+              "onesuperior",
+              "exclamdown"
+            ],
+            "line": 1022,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE02": {
+      "apple_keycode": 19,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "2",
+          "keysym": "2",
+          "keysym_source": {
+            "keysym_value": "0x32",
+            "line": 642,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0032"
+          },
+          "level": 1,
+          "unicode": "U+0032",
+          "xkb_source": {
+            "levels": [
+              "2",
+              "at",
+              "twosuperior",
+              "dead_doubleacute"
+            ],
+            "line": 94,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "@",
+          "keysym": "at",
+          "keysym_source": {
+            "keysym_value": "0x40",
+            "line": 656,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0040"
+          },
+          "level": 2,
+          "unicode": "U+0040",
+          "xkb_source": {
+            "levels": [
+              "2",
+              "at",
+              "twosuperior",
+              "dead_doubleacute"
+            ],
+            "line": 94,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "²",
+          "keysym": "twosuperior",
+          "keysym_source": {
+            "keysym_value": "0xB2",
+            "line": 740,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00B2"
+          },
+          "level": 3,
+          "unicode": "U+00B2",
+          "xkb_source": {
+            "levels": [
+              "2",
+              "at",
+              "twosuperior",
+              "dead_doubleacute"
+            ],
+            "line": 94,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_doubleacute",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "2",
+              "at",
+              "twosuperior",
+              "dead_doubleacute"
+            ],
+            "line": 94,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE03": {
+      "apple_keycode": 20,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "3",
+          "keysym": "3",
+          "keysym_source": {
+            "keysym_value": "0x33",
+            "line": 643,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0033"
+          },
+          "level": 1,
+          "unicode": "U+0033",
+          "xkb_source": {
+            "levels": [
+              "3",
+              "numbersign",
+              "threesuperior",
+              "dead_macron"
+            ],
+            "line": 95,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "#",
+          "keysym": "numbersign",
+          "keysym_source": {
+            "keysym_value": "0x23",
+            "line": 626,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0023"
+          },
+          "level": 2,
+          "unicode": "U+0023",
+          "xkb_source": {
+            "levels": [
+              "3",
+              "numbersign",
+              "threesuperior",
+              "dead_macron"
+            ],
+            "line": 95,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "³",
+          "keysym": "threesuperior",
+          "keysym_source": {
+            "keysym_value": "0xB3",
+            "line": 741,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00B3"
+          },
+          "level": 3,
+          "unicode": "U+00B3",
+          "xkb_source": {
+            "levels": [
+              "3",
+              "numbersign",
+              "threesuperior",
+              "dead_macron"
+            ],
+            "line": 95,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_macron",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "3",
+              "numbersign",
+              "threesuperior",
+              "dead_macron"
+            ],
+            "line": 95,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE04": {
+      "apple_keycode": 21,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "4",
+          "keysym": "4",
+          "keysym_source": {
+            "keysym_value": "0x34",
+            "line": 644,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0034"
+          },
+          "level": 1,
+          "unicode": "U+0034",
+          "xkb_source": {
+            "levels": [
+              "4",
+              "dollar",
+              "currency",
+              "sterling"
+            ],
+            "line": 96,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "$",
+          "keysym": "dollar",
+          "keysym_source": {
+            "keysym_value": "0x24",
+            "line": 627,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0024"
+          },
+          "level": 2,
+          "unicode": "U+0024",
+          "xkb_source": {
+            "levels": [
+              "4",
+              "dollar",
+              "currency",
+              "sterling"
+            ],
+            "line": 96,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¤",
+          "keysym": "currency",
+          "keysym_source": {
+            "keysym_value": "0xA4",
+            "line": 725,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00A4"
+          },
+          "level": 3,
+          "unicode": "U+00A4",
+          "xkb_source": {
+            "levels": [
+              "4",
+              "dollar",
+              "currency",
+              "sterling"
+            ],
+            "line": 96,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "£",
+          "keysym": "sterling",
+          "keysym_source": {
+            "keysym_value": "0xA3",
+            "line": 724,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00A3"
+          },
+          "level": 4,
+          "unicode": "U+00A3",
+          "xkb_source": {
+            "levels": [
+              "4",
+              "dollar",
+              "currency",
+              "sterling"
+            ],
+            "line": 96,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE05": {
+      "apple_keycode": 23,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "5",
+          "keysym": "5",
+          "keysym_source": {
+            "keysym_value": "0x35",
+            "line": 645,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0035"
+          },
+          "level": 1,
+          "unicode": "U+0035",
+          "xkb_source": {
+            "levels": [
+              "5",
+              "percent",
+              "EuroSign",
+              "dead_cedilla"
+            ],
+            "line": 97,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "%",
+          "keysym": "percent",
+          "keysym_source": {
+            "keysym_value": "0x25",
+            "line": 628,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0025"
+          },
+          "level": 2,
+          "unicode": "U+0025",
+          "xkb_source": {
+            "levels": [
+              "5",
+              "percent",
+              "EuroSign",
+              "dead_cedilla"
+            ],
+            "line": 97,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "€",
+          "keysym": "EuroSign",
+          "keysym_source": {
+            "keysym_value": "0x20AC",
+            "line": 2190,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+20AC"
+          },
+          "level": 3,
+          "unicode": "U+20AC",
+          "xkb_source": {
+            "levels": [
+              "5",
+              "percent",
+              "EuroSign",
+              "dead_cedilla"
+            ],
+            "line": 97,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_cedilla",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "5",
+              "percent",
+              "EuroSign",
+              "dead_cedilla"
+            ],
+            "line": 97,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE06": {
+      "apple_keycode": 22,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "6",
+          "keysym": "6",
+          "keysym_source": {
+            "keysym_value": "0x36",
+            "line": 646,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0036"
+          },
+          "level": 1,
+          "unicode": "U+0036",
+          "xkb_source": {
+            "levels": [
+              "6",
+              "asciicircum",
+              "dead_circumflex",
+              "onequarter"
+            ],
+            "line": 1031,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "^",
+          "keysym": "asciicircum",
+          "keysym_source": {
+            "keysym_value": "0x5E",
+            "line": 686,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+005E"
+          },
+          "level": 2,
+          "unicode": "U+005E",
+          "xkb_source": {
+            "levels": [
+              "6",
+              "asciicircum",
+              "dead_circumflex",
+              "onequarter"
+            ],
+            "line": 1031,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_circumflex",
+          "level": 3,
+          "xkb_source": {
+            "levels": [
+              "6",
+              "asciicircum",
+              "dead_circumflex",
+              "onequarter"
+            ],
+            "line": 1031,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¼",
+          "keysym": "onequarter",
+          "keysym_source": {
+            "keysym_value": "0xBC",
+            "line": 752,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00BC"
+          },
+          "level": 4,
+          "unicode": "U+00BC",
+          "xkb_source": {
+            "levels": [
+              "6",
+              "asciicircum",
+              "dead_circumflex",
+              "onequarter"
+            ],
+            "line": 1031,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE07": {
+      "apple_keycode": 26,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "7",
+          "keysym": "7",
+          "keysym_source": {
+            "keysym_value": "0x37",
+            "line": 647,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0037"
+          },
+          "level": 1,
+          "unicode": "U+0037",
+          "xkb_source": {
+            "levels": [
+              "7",
+              "ampersand",
+              "dead_horn",
+              "onehalf"
+            ],
+            "line": 1033,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "&",
+          "keysym": "ampersand",
+          "keysym_source": {
+            "keysym_value": "0x26",
+            "line": 629,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0026"
+          },
+          "level": 2,
+          "unicode": "U+0026",
+          "xkb_source": {
+            "levels": [
+              "7",
+              "ampersand",
+              "dead_horn",
+              "onehalf"
+            ],
+            "line": 1033,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_horn",
+          "level": 3,
+          "xkb_source": {
+            "levels": [
+              "7",
+              "ampersand",
+              "dead_horn",
+              "onehalf"
+            ],
+            "line": 1033,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "½",
+          "keysym": "onehalf",
+          "keysym_source": {
+            "keysym_value": "0xBD",
+            "line": 753,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00BD"
+          },
+          "level": 4,
+          "unicode": "U+00BD",
+          "xkb_source": {
+            "levels": [
+              "7",
+              "ampersand",
+              "dead_horn",
+              "onehalf"
+            ],
+            "line": 1033,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE08": {
+      "apple_keycode": 28,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "8",
+          "keysym": "8",
+          "keysym_source": {
+            "keysym_value": "0x38",
+            "line": 648,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0038"
+          },
+          "level": 1,
+          "unicode": "U+0038",
+          "xkb_source": {
+            "levels": [
+              "8",
+              "asterisk",
+              "dead_ogonek",
+              "threequarters"
+            ],
+            "line": 1034,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "*",
+          "keysym": "asterisk",
+          "keysym_source": {
+            "keysym_value": "0x2A",
+            "line": 634,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+002A"
+          },
+          "level": 2,
+          "unicode": "U+002A",
+          "xkb_source": {
+            "levels": [
+              "8",
+              "asterisk",
+              "dead_ogonek",
+              "threequarters"
+            ],
+            "line": 1034,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_ogonek",
+          "level": 3,
+          "xkb_source": {
+            "levels": [
+              "8",
+              "asterisk",
+              "dead_ogonek",
+              "threequarters"
+            ],
+            "line": 1034,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¾",
+          "keysym": "threequarters",
+          "keysym_source": {
+            "keysym_value": "0xBE",
+            "line": 754,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00BE"
+          },
+          "level": 4,
+          "unicode": "U+00BE",
+          "xkb_source": {
+            "levels": [
+              "8",
+              "asterisk",
+              "dead_ogonek",
+              "threequarters"
+            ],
+            "line": 1034,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE09": {
+      "apple_keycode": 25,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "9",
+          "keysym": "9",
+          "keysym_source": {
+            "keysym_value": "0x39",
+            "line": 649,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0039"
+          },
+          "level": 1,
+          "unicode": "U+0039",
+          "xkb_source": {
+            "levels": [
+              "9",
+              "parenleft",
+              "leftsinglequotemark",
+              "dead_breve"
+            ],
+            "line": 101,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "(",
+          "keysym": "parenleft",
+          "keysym_source": {
+            "keysym_value": "0x28",
+            "line": 632,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0028"
+          },
+          "level": 2,
+          "unicode": "U+0028",
+          "xkb_source": {
+            "levels": [
+              "9",
+              "parenleft",
+              "leftsinglequotemark",
+              "dead_breve"
+            ],
+            "line": 101,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "‘",
+          "keysym": "leftsinglequotemark",
+          "keysym_source": {
+            "keysym_value": "0xAD0",
+            "line": 1555,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+2018"
+          },
+          "level": 3,
+          "unicode": "U+2018",
+          "xkb_source": {
+            "levels": [
+              "9",
+              "parenleft",
+              "leftsinglequotemark",
+              "dead_breve"
+            ],
+            "line": 101,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_breve",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "9",
+              "parenleft",
+              "leftsinglequotemark",
+              "dead_breve"
+            ],
+            "line": 101,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE10": {
+      "apple_keycode": 29,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "0",
+          "keysym": "0",
+          "keysym_source": {
+            "keysym_value": "0x30",
+            "line": 640,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0030"
+          },
+          "level": 1,
+          "unicode": "U+0030",
+          "xkb_source": {
+            "levels": [
+              "0",
+              "parenright",
+              "rightsinglequotemark",
+              "dead_abovering"
+            ],
+            "line": 102,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": ")",
+          "keysym": "parenright",
+          "keysym_source": {
+            "keysym_value": "0x29",
+            "line": 633,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0029"
+          },
+          "level": 2,
+          "unicode": "U+0029",
+          "xkb_source": {
+            "levels": [
+              "0",
+              "parenright",
+              "rightsinglequotemark",
+              "dead_abovering"
+            ],
+            "line": 102,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "’",
+          "keysym": "rightsinglequotemark",
+          "keysym_source": {
+            "keysym_value": "0xAD1",
+            "line": 1556,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+2019"
+          },
+          "level": 3,
+          "unicode": "U+2019",
+          "xkb_source": {
+            "levels": [
+              "0",
+              "parenright",
+              "rightsinglequotemark",
+              "dead_abovering"
+            ],
+            "line": 102,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_abovering",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "0",
+              "parenright",
+              "rightsinglequotemark",
+              "dead_abovering"
+            ],
+            "line": 102,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE11": {
+      "apple_keycode": 27,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "-",
+          "keysym": "minus",
+          "keysym_source": {
+            "keysym_value": "0x2D",
+            "line": 637,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+002D"
+          },
+          "level": 1,
+          "unicode": "U+002D",
+          "xkb_source": {
+            "levels": [
+              "minus",
+              "underscore",
+              "yen",
+              "dead_belowdot"
+            ],
+            "line": 103,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "_",
+          "keysym": "underscore",
+          "keysym_source": {
+            "keysym_value": "0x5F",
+            "line": 687,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+005F"
+          },
+          "level": 2,
+          "unicode": "U+005F",
+          "xkb_source": {
+            "levels": [
+              "minus",
+              "underscore",
+              "yen",
+              "dead_belowdot"
+            ],
+            "line": 103,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¥",
+          "keysym": "yen",
+          "keysym_source": {
+            "keysym_value": "0xA5",
+            "line": 726,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00A5"
+          },
+          "level": 3,
+          "unicode": "U+00A5",
+          "xkb_source": {
+            "levels": [
+              "minus",
+              "underscore",
+              "yen",
+              "dead_belowdot"
+            ],
+            "line": 103,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_belowdot",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "minus",
+              "underscore",
+              "yen",
+              "dead_belowdot"
+            ],
+            "line": 103,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "AE12": {
+      "apple_keycode": 24,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "=",
+          "keysym": "equal",
+          "keysym_source": {
+            "keysym_value": "0x3D",
+            "line": 653,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+003D"
+          },
+          "level": 1,
+          "unicode": "U+003D",
+          "xkb_source": {
+            "levels": [
+              "equal",
+              "plus",
+              "multiply",
+              "division"
+            ],
+            "line": 104,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "+",
+          "keysym": "plus",
+          "keysym_source": {
+            "keysym_value": "0x2B",
+            "line": 635,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+002B"
+          },
+          "level": 2,
+          "unicode": "U+002B",
+          "xkb_source": {
+            "levels": [
+              "equal",
+              "plus",
+              "multiply",
+              "division"
+            ],
+            "line": 104,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "×",
+          "keysym": "multiply",
+          "keysym_source": {
+            "keysym_value": "0xD7",
+            "line": 780,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00D7"
+          },
+          "level": 3,
+          "unicode": "U+00D7",
+          "xkb_source": {
+            "levels": [
+              "equal",
+              "plus",
+              "multiply",
+              "division"
+            ],
+            "line": 104,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "÷",
+          "keysym": "division",
+          "keysym_source": {
+            "keysym_value": "0xF7",
+            "line": 814,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00F7"
+          },
+          "level": 4,
+          "unicode": "U+00F7",
+          "xkb_source": {
+            "levels": [
+              "equal",
+              "plus",
+              "multiply",
+              "division"
+            ],
+            "line": 104,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "BKSL": {
+      "apple_keycode": 42,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "\\",
+          "keysym": "backslash",
+          "keysym_source": {
+            "keysym_value": "0x5C",
+            "line": 684,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+005C"
+          },
+          "level": 1,
+          "unicode": "U+005C",
+          "xkb_source": {
+            "levels": [
+              "backslash",
+              "bar",
+              "notsign",
+              "brokenbar"
+            ],
+            "line": 141,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "|",
+          "keysym": "bar",
+          "keysym_source": {
+            "keysym_value": "0x7C",
+            "line": 717,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+007C"
+          },
+          "level": 2,
+          "unicode": "U+007C",
+          "xkb_source": {
+            "levels": [
+              "backslash",
+              "bar",
+              "notsign",
+              "brokenbar"
+            ],
+            "line": 141,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¬",
+          "keysym": "notsign",
+          "keysym_source": {
+            "keysym_value": "0xAC",
+            "line": 734,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00AC"
+          },
+          "level": 3,
+          "unicode": "U+00AC",
+          "xkb_source": {
+            "levels": [
+              "backslash",
+              "bar",
+              "notsign",
+              "brokenbar"
+            ],
+            "line": 141,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "¦",
+          "keysym": "brokenbar",
+          "keysym_source": {
+            "keysym_value": "0xA6",
+            "line": 727,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+00A6"
+          },
+          "level": 4,
+          "unicode": "U+00A6",
+          "xkb_source": {
+            "levels": [
+              "backslash",
+              "bar",
+              "notsign",
+              "brokenbar"
+            ],
+            "line": 141,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "LSGT": {
+      "apple_keycode": 10,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "\\",
+          "keysym": "backslash",
+          "keysym_source": {
+            "keysym_value": "0x5C",
+            "line": 684,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+005C"
+          },
+          "level": 1,
+          "unicode": "U+005C",
+          "xkb_source": {
+            "levels": [
+              "backslash",
+              "bar",
+              "backslash",
+              "bar"
+            ],
+            "line": 142,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "|",
+          "keysym": "bar",
+          "keysym_source": {
+            "keysym_value": "0x7C",
+            "line": 717,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+007C"
+          },
+          "level": 2,
+          "unicode": "U+007C",
+          "xkb_source": {
+            "levels": [
+              "backslash",
+              "bar",
+              "backslash",
+              "bar"
+            ],
+            "line": 142,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "\\",
+          "keysym": "backslash",
+          "keysym_source": {
+            "keysym_value": "0x5C",
+            "line": 684,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+005C"
+          },
+          "level": 3,
+          "unicode": "U+005C",
+          "xkb_source": {
+            "levels": [
+              "backslash",
+              "bar",
+              "backslash",
+              "bar"
+            ],
+            "line": 142,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "|",
+          "keysym": "bar",
+          "keysym_source": {
+            "keysym_value": "0x7C",
+            "line": 717,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+007C"
+          },
+          "level": 4,
+          "unicode": "U+007C",
+          "xkb_source": {
+            "levels": [
+              "backslash",
+              "bar",
+              "backslash",
+              "bar"
+            ],
+            "line": 142,
+            "section": "intl inherited",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    },
+    "TLDE": {
+      "apple_keycode": 50,
+      "apple_keycode_source": {
+        "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+        "source": "apple-virtual-keycodes"
+      },
+      "levels": [
+        {
+          "character": "`",
+          "keysym": "grave",
+          "keysym_source": {
+            "keysym_value": "0x60",
+            "line": 688,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+0060"
+          },
+          "level": 1,
+          "unicode": "U+0060",
+          "xkb_source": {
+            "levels": [
+              "grave",
+              "asciitilde",
+              "dead_grave",
+              "dead_tilde"
+            ],
+            "line": 1017,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "character": "~",
+          "keysym": "asciitilde",
+          "keysym_source": {
+            "keysym_value": "0x7E",
+            "line": 719,
+            "source": "xorgproto-keysymdef",
+            "unicode": "U+007E"
+          },
+          "level": 2,
+          "unicode": "U+007E",
+          "xkb_source": {
+            "levels": [
+              "grave",
+              "asciitilde",
+              "dead_grave",
+              "dead_tilde"
+            ],
+            "line": 1017,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_grave",
+          "level": 3,
+          "xkb_source": {
+            "levels": [
+              "grave",
+              "asciitilde",
+              "dead_grave",
+              "dead_tilde"
+            ],
+            "line": 1017,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        },
+        {
+          "dead": true,
+          "keysym": "dead_tilde",
+          "level": 4,
+          "xkb_source": {
+            "levels": [
+              "grave",
+              "asciitilde",
+              "dead_grave",
+              "dead_tilde"
+            ],
+            "line": 1017,
+            "section": "altgr-intl override",
+            "source": "xkeyboard-config-symbols-us"
+          }
+        }
+      ]
+    }
+  },
+  "maxout": 5,
+  "maxout_derivation": {
+    "location": "keyboard maxout is maximum UTF-16 values from one keypress",
+    "method": "maximum generated direct output plus maximum state-termination fallback, measured in UTF-16 code units",
+    "source": "apple-tn2056"
+  },
+  "name": "us-altgr-intl",
+  "routing": {
+    "base": 0,
+    "caps": 4,
+    "caps_altgr": 6,
+    "caps_shift_altgr": 7,
+    "command_base_direct": 10,
+    "command_shift_direct": 11,
+    "control_base_direct": 8,
+    "control_shift_direct": 9,
+    "option_or_altgr": 2,
+    "policy": "Either Option acts as AltGr when Command and Control are absent. Caps+AltGr swaps only Unicode 17 lower/upper level3/4 pairs; Caps+Shift+AltGr inverts those pairs while nonletters retain physical AltGr levels. Control emits direct ASCII C0 for US letters and direct base/physical-Shift US identity for nonletters, ignoring Caps/Option. Command has precedence, ignores Caps/Option/Control, and emits direct XKB base or physical-Shift identity. Shortcut maps contain no actions.",
+    "shift": 1,
+    "shift_caps": 5,
+    "shift_option_or_altgr": 3
+  },
+  "schema": 1,
+  "source_lock_sha256": "117185a82dfb6d1fb01788a3da309e05e030d139c40ed310c6466bd717e0cf81",
+  "special_keys": {
+    "BKSP": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 51,
+      "label": "Delete",
+      "unicode": [
+        "U+0008"
+      ]
+    },
+    "DOWN": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 125,
+      "label": "Down Arrow",
+      "unicode": [
+        "U+001F"
+      ]
+    },
+    "ESC": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 53,
+      "label": "Escape",
+      "unicode": [
+        "U+001B"
+      ]
+    },
+    "KP0": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 82,
+      "label": "Keypad 0",
+      "unicode": [
+        "U+0030"
+      ]
+    },
+    "KP1": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 83,
+      "label": "Keypad 1",
+      "unicode": [
+        "U+0031"
+      ]
+    },
+    "KP2": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 84,
+      "label": "Keypad 2",
+      "unicode": [
+        "U+0032"
+      ]
+    },
+    "KP3": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 85,
+      "label": "Keypad 3",
+      "unicode": [
+        "U+0033"
+      ]
+    },
+    "KP4": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 86,
+      "label": "Keypad 4",
+      "unicode": [
+        "U+0034"
+      ]
+    },
+    "KP5": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 87,
+      "label": "Keypad 5",
+      "unicode": [
+        "U+0035"
+      ]
+    },
+    "KP6": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 88,
+      "label": "Keypad 6",
+      "unicode": [
+        "U+0036"
+      ]
+    },
+    "KP7": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 89,
+      "label": "Keypad 7",
+      "unicode": [
+        "U+0037"
+      ]
+    },
+    "KP8": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 91,
+      "label": "Keypad 8",
+      "unicode": [
+        "U+0038"
+      ]
+    },
+    "KP9": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 92,
+      "label": "Keypad 9",
+      "unicode": [
+        "U+0039"
+      ]
+    },
+    "KPAD": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 69,
+      "label": "Keypad Plus",
+      "unicode": [
+        "U+002B"
+      ]
+    },
+    "KPDL": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 65,
+      "label": "Keypad Decimal",
+      "unicode": [
+        "U+002E"
+      ]
+    },
+    "KPDV": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 75,
+      "label": "Keypad Divide",
+      "unicode": [
+        "U+002F"
+      ]
+    },
+    "KPEN": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 76,
+      "label": "Keypad Enter",
+      "unicode": [
+        "U+000D"
+      ]
+    },
+    "KPEQ": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 81,
+      "label": "Keypad Equals",
+      "unicode": [
+        "U+003D"
+      ]
+    },
+    "KPMU": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 67,
+      "label": "Keypad Multiply",
+      "unicode": [
+        "U+002A"
+      ]
+    },
+    "KPSU": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 78,
+      "label": "Keypad Minus",
+      "unicode": [
+        "U+002D"
+      ]
+    },
+    "LEFT": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 123,
+      "label": "Left Arrow",
+      "unicode": [
+        "U+001C"
+      ]
+    },
+    "RGHT": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 124,
+      "label": "Right Arrow",
+      "unicode": [
+        "U+001D"
+      ]
+    },
+    "RTRN": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 36,
+      "label": "Return",
+      "unicode": [
+        "U+000D"
+      ]
+    },
+    "SPCE": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 49,
+      "label": "space",
+      "unicode": [
+        "U+0020"
+      ]
+    },
+    "TAB": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 48,
+      "label": "Tab",
+      "unicode": [
+        "U+0009"
+      ]
+    },
+    "UP": {
+      "anchors": [
+        {
+          "location": "Event Manager chapter, Figure 2-10 (virtual key codes)",
+          "source": "apple-virtual-keycodes"
+        },
+        {
+          "location": "Unicode 17.0.0 scalar/control assignments; TN2056 defines output as UTF-16",
+          "source": "unicode-data"
+        }
+      ],
+      "apple_keycode": 126,
+      "label": "Up Arrow",
+      "unicode": [
+        "U+001E"
+      ]
+    }
+  }
+}
