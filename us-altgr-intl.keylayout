@@ -1064,7 +1064,7 @@
             <when state="3" output="Ả"/>
             <when state="7" output="Ă"/>
             <when state="10" output="Ą"/>
-            <when state="14" output="Ǡ"/>
+            <when state="14" output="Ȧ"/>
             <when state="19" output="Ạ"/>
             <when state="21" output="Ā"/>
             <when state="8" output="Â"/>
@@ -1072,6 +1072,7 @@
             <when state="5" output="Á"/>
             <when state="9" output="À"/>
             <when state="15" output="Ä"/>
+            <when state="16" output="Å"/>
         </action>
         <action id="a17">
             <when state="none" output="E"/>
@@ -1108,6 +1109,8 @@
         </action>
         <action id="a19">
             <when state="none" output="N"/>
+            <when state="3" output="Ɲ"/>
+            <when state="12" output="Ņ"/>
             <when state="2" output="Ň"/>
             <when state="5" output="Ń"/>
             <when state="9" output="Ǹ"/>
@@ -1117,7 +1120,7 @@
         </action>
         <action id="a2">
             <when state="none" output="O"/>
-            <when state="22" output="Ǿ"/>
+            <when state="22" output="Ø"/>
             <when state="2" output="Ǒ"/>
             <when state="3" output="Ỏ"/>
             <when state="7" output="Ŏ"/>
@@ -1167,7 +1170,7 @@
         </action>
         <action id="a25">
             <when state="none" output="j"/>
-            <when state="22" output="ɟ"/>
+            <when state="22" output="ɉ"/>
             <when state="2" output="ǰ"/>
         </action>
         <action id="a26">
@@ -1271,6 +1274,7 @@
         </action>
         <action id="a4">
             <when state="none" output="Y"/>
+            <when state="5" output="Ý"/>
             <when state="22" output="Ɏ"/>
             <when state="3" output="Ỷ"/>
             <when state="4" output="Ỹ"/>
@@ -1405,7 +1409,7 @@
         </action>
         <action id="a9">
             <when state="none" output="o"/>
-            <when state="22" output="ǿ"/>
+            <when state="22" output="ø"/>
             <when state="10" output="ǫ"/>
             <when state="12" output="o̧"/>
             <when state="13" output="ơ"/>
@@ -1434,7 +1438,7 @@
         <when state="19" output="."/>
         <when state="2" output="ˇ"/>
         <when state="21" output="ˉ"/>
-        <when state="22" output="̸"/>
+        <when state="22" output="◌̸"/>
         <when state="3" output="◌̉"/>
         <when state="4" output="~"/>
         <when state="5" output="´"/>
