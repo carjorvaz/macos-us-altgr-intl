@@ -1083,7 +1083,9 @@
         <action id="a16">
             <when state="none" output="A"/>
             <when state="1" output="Â"/>
+            <when state="8" output="Â"/>
             <when state="11" output="Ã"/>
+            <when state="4" output="Ã"/>
             <when state="17" output="Á"/>
             <when state="20" output="À"/>
             <when state="5" output="Á"/>
@@ -1094,6 +1096,7 @@
         <action id="a17">
             <when state="none" output="E"/>
             <when state="1" output="Ê"/>
+            <when state="8" output="Ê"/>
             <when state="17" output="É"/>
             <when state="20" output="È"/>
             <when state="5" output="É"/>
@@ -1104,6 +1107,7 @@
         <action id="a18">
             <when state="none" output="I"/>
             <when state="1" output="Î"/>
+            <when state="8" output="Î"/>
             <when state="17" output="Í"/>
             <when state="20" output="Ì"/>
             <when state="5" output="Í"/>
@@ -1114,11 +1118,14 @@
         <action id="a19">
             <when state="none" output="N"/>
             <when state="11" output="Ñ"/>
+            <when state="4" output="Ñ"/>
         </action>
         <action id="a2">
             <when state="none" output="O"/>
             <when state="1" output="Ô"/>
+            <when state="8" output="Ô"/>
             <when state="11" output="Õ"/>
+            <when state="4" output="Õ"/>
             <when state="17" output="Ó"/>
             <when state="20" output="Ò"/>
             <when state="5" output="Ó"/>
@@ -1184,6 +1191,7 @@
         <action id="a3">
             <when state="none" output="U"/>
             <when state="1" output="Û"/>
+            <when state="8" output="Û"/>
             <when state="17" output="Ú"/>
             <when state="20" output="Ù"/>
             <when state="5" output="Ú"/>
@@ -1246,6 +1254,7 @@
         </action>
         <action id="a4">
             <when state="none" output="Y"/>
+            <when state="8" output="Ŷ"/>
             <when state="6" output="Ÿ"/>
             <when state="15" output="Ÿ"/>
         </action>
@@ -1293,7 +1302,7 @@
             <when state="2" output="ǎ"/>
             <when state="20" output="à"/>
             <when state="21" output="ā"/>
-            <when state="3" output=" ả"/>
+            <when state="3" output="ả"/>
             <when state="4" output="ã"/>
             <when state="5" output="á"/>
             <when state="6" output="ä"/>
